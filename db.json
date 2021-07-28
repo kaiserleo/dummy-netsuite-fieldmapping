@@ -1,0 +1,20 @@
+{
+  "customer": {
+    "ch_record": "customer",
+    "ns_record": "customer",
+    "header": {
+      "ch_header": ["firstname","lastname","email","phone"],
+      "ns_header": ["fname","lname","email","phone"]
+    },
+    "line": {
+      "ch_line": {
+        "item": ["item","quantity","rate","taxrate"],
+        "expense": ["expenseitem","quantity","rate","taxrate"]
+      },
+      "ns_line": {
+        "item": ["item","quantity","rate","taxrate"],
+        "expense": ["item","quantity","rate","taxrate"]
+      }
+    }
+  }
+}
