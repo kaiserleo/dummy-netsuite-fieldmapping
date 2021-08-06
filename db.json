@@ -16,5 +16,21 @@
         "expense": ["item","quantity","rate","taxrate"]
       }
     }
+  },
+  "purchase_order": {
+    "ch_record": "purchaseorder",
+    "ns_record": "purchaseorder",
+    "header": {
+        "ch_header": ["emp", "date", "currency", "vendorid", "locationid"],
+        "ns_header": ["employee", "trandate", "currency", "entity", "location"]
+    },
+    "line": {
+        "ch_line": {
+            "item": ["itemid", "quantityno", "rate"]
+        },
+        "ns_line": {
+            "item": ["item", "quantity", "rate"]
+        }
+    }
   }
 }
